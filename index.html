@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Awal Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS untuk tampilan yang lebih menarik */
+    .card {
+      margin-bottom: 20px;
+    }
+    .jumbotron {
+      background-image: url('https://via.placeholder.com/1500x400'); /* Ganti dengan URL gambar sesuai kebutuhan */
+      background-size: cover;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff; /* Warna latar belakang */
+      color: #051916; /* Warna teks */
+    }
+    /* Warna background navbar dan footer */
+    .navbar, footer {
+      background-color: #051916 !important;
+    }
+    /* Warna font pada tautan navigasi di navbar */
+    .navbar-nav .nav-link {
+      color: #fff !important;
+    }
+    .container .navbar-brand {
+      color: #fff;
+    }
+    .footer {
+      background-color: #051916 !important;
+    }
+    .footer p {
+      color: #fff;
+    }
+    /* Proporsi gambar pada card */
+    .card-img-top {
+      object-fit: cover;
+      height: 200px; /* Ubah tinggi gambar sesuai kebutuhan */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ardhi.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <h1 class="display-4">Selamat datang di Blog Saya</h1>
+      <p class="lead">Temukan artikel menarik dan informatif di sini.</p>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://via.placeholder.com/350" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Judul Artikel Pertama</h5>
+            <p class="card-text">Konten artikel pertama...</p>
+            <a href="artikel.html" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://via.placeholder.com/350" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Judul Artikel Kedua</h5>
+            <p class="card-text">Konten artikel kedua...</p>
+            <a href="artikel.html" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://via.placeholder.com/350" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Judul Artikel Ketiga</h5>
+            <p class="card-text">Konten artikel Ketiga...</p>
+            <a href="artikel.html" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://via.placeholder.com/350" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Judul Artikel Keempat</h5>
+            <p class="card-text">Konten artikel keempat...</p>
+            <a href="artikel.html" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-white mt-4">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-6">
+          <p>© 2024 Ardhi. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <p>Designed by Ardhi Rahadian</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
